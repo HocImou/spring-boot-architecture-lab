@@ -1,2 +1,17 @@
+# Shell script: LF line endings
 /mvnw text eol=lf
+
+# Windows scripts: CRLF line endings
 *.cmd text eol=crlf
+
+# Java and application configuration files: LF line endings
+*.java text eol=lf
+*.properties text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Markdown and Git configuration files: LF line endings
+*.md text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
