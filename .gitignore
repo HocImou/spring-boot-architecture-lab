@@ -1,16 +1,18 @@
-# Compiled class file
+# Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Keep build directories ignored
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Java compiled files and logs
 *.class
-
-# Log file
 *.log
+hs_err_pid*
+replay_pid*
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Archives and packages
 *.jar
 *.war
 *.nar
@@ -19,6 +21,38 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# BlueJ
+*.ctxt
+
+# Java IDEs - Eclipse / Spring Tool Suite
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Gradle build directories
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Visual Studio Code
+.vscode/
+
+# Spring Initializr
+HELP.md
